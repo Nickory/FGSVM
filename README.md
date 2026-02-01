@@ -20,7 +20,7 @@ We added **reference preprocessing code** (multi-class → binary conversion, tr
 
 | File              | Description                                          |
 |-------------------|------------------------------------------------------|
-| `granular.py`     | Core FGSVM implementation (fuzzy granular mechanism) |
+| `granular.py`     | Core FGSVM implementation                            |
 | `main.py`         | Main script — training, prediction & evaluation      |
 | `sample.py`       | Imbalanced data sampling / resampling utilities      |
 | `smo.py`          | SMO-based SVM (GPU acceleration via cuML if available) |
@@ -34,7 +34,7 @@ We added **reference preprocessing code** (multi-class → binary conversion, tr
    - Read Excel/CSV
    - Convert multi-class to binary (positive class as defined in paper; labels preferably **+1 / -1**)
    - Follow the original class appearance order in the file
-   - Split train/test (recommended 7:3 or 8:2; 5-fold cross-validation also supported)
+   - Split train/test (recommended 7:3 or 8:2; 5-fold cross-validation)
    - Save as NumPy files: `train.npy` / `test.npy`  
      Format: last column = label
 
