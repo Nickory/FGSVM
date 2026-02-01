@@ -70,4 +70,7 @@ We added **reference preprocessing code** (multi-class → binary conversion, tr
 
 Once `.npy` files are ready, simply run `python main.py` to start experiments.
 
+For questions, collaborations, or issues about this repo (especially the added preprocessing code):  
+zhwang@nuist.edu.cn
+
 Contributions, bug reports, and dataset support PRs are welcome!
