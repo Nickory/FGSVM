@@ -1,4 +1,4 @@
-```markdown
+
 # FGSVM: Fuzzy Granular Support Vector Machine [IEEE TITS 2025]
 
 This repository is a reimplementation of the **Fuzzy Granular Support Vector Machine (FGSVM)** proposed in the following paper:
@@ -72,4 +72,3 @@ We added **reference preprocessing code** (multi-class → binary conversion, tr
 Once `.npy` files are ready, simply run `python main.py` to start experiments.
 
 Contributions, bug reports, and dataset support PRs are welcome!
-```
